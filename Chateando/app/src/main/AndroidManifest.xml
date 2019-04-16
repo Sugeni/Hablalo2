@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="isware.uneg.es.chateando">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Logica.Hablalo"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <service android:name=".Logica.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Interfaz.ActividadPrincipal">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Interfaz.ActividadLogin" />
+        <activity
+            android:name=".Interfaz.ActividadRegistro"
+            android:parentActivityName=".Interfaz.ActividadLogin" />
+        <activity
+            android:name=".Interfaz.ActividadEntrar"
+            android:parentActivityName=".Interfaz.ActividadLogin" />
+        <activity android:name=".Interfaz.AjustesActivity" />
+        <activity
+            android:name=".Interfaz.EstadoActivity"
+            android:parentActivityName=".Interfaz.AjustesActivity" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".Interfaz.UsersActivity"
+            android:parentActivityName=".Interfaz.ActividadPrincipal" />
+        <activity android:name=".Interfaz.perfilActivity">
+            <intent-filter>
+                <action android:name="isware.uneg.es.chateando_TARGET_NOTIFICATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Interfaz.ChatActivity"
+                    android:parentActivityName=".Interfaz.ActividadPrincipal"></activity>
+    </application>
+
+</manifest>

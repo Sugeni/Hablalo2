@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Interfaz.perfilActivity">
+
+    <Button
+        android:id="@+id/pefil_ignorar_btn"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:text="Ignorar"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/perfil_solicitud_btn"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:background="@color/colorPrimary"
+        android:text="Mandar Solicitud" />
+
+    <Button
+        android:id="@+id/perfil_Rsolicitud_btn"
+        android:layout_width="186dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="121dp"
+        android:background="@color/colorLetraPrincipal"
+        android:text="Rechazar Solicitud" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/perfil_imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/perfil_name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="-158dp"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:id="@+id/perfil_amigos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="241dp"
+        android:text=" Amigos"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/perfil_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="236dp"
+        android:text="Estado predeterminado del usuario"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/perfil_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:text="Nombre Usuario"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+</RelativeLayout>

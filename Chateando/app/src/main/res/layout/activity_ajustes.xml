@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".Interfaz.AjustesActivity">
+
+    <Button
+        android:id="@+id/ajustesCEstado"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:background="@color/colorAccent"
+        android:text="@string/cambiar_estado"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/ajustesCImagenA"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="171dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/cambiar_imagen"
+        android:textColor="@color/colorLetrasecundaria" />
+
+    <Button
+        android:id="@+id/ajustesCImagenS"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="113dp"
+        android:background="@color/colorLetraPrincipal"
+        android:text="Cambiar Imagen señuelo"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ajustesImagenS"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/ajustesImagenA"
+        android:layout_marginEnd="26dp"
+        android:src="@drawable/perfil" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ajustesImagenA"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/perfil" />
+
+    <TextView
+        android:id="@+id/ajustesTvUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="263dp"
+        android:text="@string/nombre_usuario"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        tools:textColor="@color/colorLetraPrincipal" />
+
+    <TextView
+        android:id="@+id/ajustesTVDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ajustesTvUsuario"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hola_estoy_usando_chateando"
+        android:textSize="18sp" />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "556493217609",
+    "firebase_url": "https://chateando-4bef7.firebaseio.com",
+    "project_id": "chateando-4bef7",
+    "storage_bucket": "chateando-4bef7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556493217609:android:e20f852d1e45b734",
+        "android_client_info": {
+          "package_name": "isware.uneg.es.chateando"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556493217609-j4jamals0bvqtfma7opqu09s18r16cig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "isware.uneg.es.chateando",
+            "certificate_hash": "a55c41705cbd9d3f458b8de8a3982db159ef2421"
+          }
+        },
+        {
+          "client_id": "556493217609-5nbi8464fuvbmo9afas9l8eonntepb27.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRQM8hdotd41TeS3izbsCs92gTvTwelNU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556493217609-5nbi8464fuvbmo9afas9l8eonntepb27.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

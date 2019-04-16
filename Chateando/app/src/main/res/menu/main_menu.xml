@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/configCuenta_Btn"
+        android:title="Configurar Cuenta" />
+    <item
+        android:id="@+id/users_Btn"
+        android:title="Todos los usuarios" />
+    <item
+        android:id="@+id/desconectar_Btn"
+        android:title="Desconectar"
+        />
+</menu>

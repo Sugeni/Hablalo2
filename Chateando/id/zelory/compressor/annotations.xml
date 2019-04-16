@@ -1,0 +1,6 @@
+<root>
+    <item
+        name='id.zelory.compressor.Compressor android.graphics.Bitmap compressToBitmap(java.io.File)'>
+        <annotation name='android.support.annotation.NonNull' />
+    </item>
+</root>
